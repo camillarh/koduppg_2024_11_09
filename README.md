@@ -1,10 +1,19 @@
 # Word counting Web-API using FastAPI and Uvicorn
 
-This project is a simple web-API built with FastAPI and Uvicorn that provides a word-counting functionality, following the principles of a RESTful API. 
-The user can send an input in the format of a text of choice, via a POST request, and the web-API then returns the frequency of the 10 most occuring unique words in the text. The output is written as a JSON-object, where the words are the keys and their respective values are each words number of occurences. 
+This project is a simple web-API built with FastAPI and Uvicorn that provides a word-counting functionality, following the principles of a RESTful API while written i Python3. The user can send an input in the format of a text of choice, via a POST request, and the web-API then returns the frequency of the 10 most occuring unique words in the text. The output is written as a JSON-object, where the words are the keys and their respective values are each words number of occurences. 
 
 This web-API is developed to automatically reload when any changes in the code is made, making it easy to manage and allow for for future updates. 
 The application can also handle requests asynchronously, to work with a large number of users simultaneously.
+
+### A simple example
+> [!TIP]
+> A simple example of using the application is by writing
+>
+>`$ curl -H "Content-type: text/plain" -X "POST" -d "Banan Äpple Katt Hund Banan Hund Katt Hund" http://localhost:3000/count`
+>
+> which will generate the web-API to count the occurence of each word in the string "_Banan Äpple Katt Hund Banan Hund Katt Hund_", and return the response
+>
+>`$ {"Hund":3,"Banan":2,"Katt":2,"Äpple":1}` 
 
 ## Frameworks and requirements 
 FastAPI is a high-performance web framework for developing APIs with Python3, which is on level with NodeJS. The application runs on Uvicorn, which is an Asynchronous Server Gateway Interface (ASGI) server.
@@ -41,13 +50,4 @@ where _text_string_ is the text the user wants to apply the word counting functi
 > [!WARNING]
 > The _text_string_ must be defined in string-format using (" ").
 
-### A simple example
-> [!TIP]
-> A simple example of using the application is by writing
->
->`$ curl -H "Content-type: text/plain" -X "POST" -d "Banan Äpple Katt Hund Banan Hund Katt Hund" http://localhost:3000/count`
->
-> which will generate the web-API to count the occurence of each word in the string "_Banan Äpple Katt Hund Banan Hund Katt Hund_" and return the response
->
->`$ {"Hund":3,"Banan":2,"Katt":2,"Äpple":1}` 
->
+For more information about the code, see each file and its respective description.
