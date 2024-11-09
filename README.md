@@ -1,4 +1,4 @@
-# Word counting Web-API using FastAPI and Uvicorn
+# Word-counting Web-API using FastAPI and Uvicorn
 
 This project is a simple web-API built with FastAPI and Uvicorn that provides a word-counting functionality, following the principles of a RESTful API while written i Python3. The user can send an input in the format of a text of choice, via a POST request, and the web-API then returns the frequency of the 10 most occuring unique words in the text. The output is written as a JSON-object, where the words are the keys and their respective values are each words number of occurences. 
 
