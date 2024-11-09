@@ -12,14 +12,20 @@ FastAPI is a high-performance web framework for developing APIs with Python3, an
 ## Requirements
 The requirements to run this application is specified in _requirements.txt_.
 
-## How to install 
+## How to install requirements and build the app
 To get started with the app, you need to install FastAPI and Uvicorn. This can be done using pip.
 Simply open the terminal and write
-    $ pip install .
-The 
+    **$** pip install .
+This will install all requirements to run the app, accoring to _setup.py_.
 
-## How to build the app
 
 ## How to run the app
+The script _run_api.py_ is the file than runs the FastAPI application using Uvicorn, and reloads the app when changes are made.
+To run the app, simply write 
+    **$** python run_api.py 
+in the terminal. This will run the FastAPI application on port 3000, and the app is now set up for incoming HTTP requests on this port.
 
 ## How to use the app
+To use the app, the user simply has to write 
+    **$**  curl -H "Content-type: text/plain" -X "POST" -d _text_string_ http://localhost:3000/count 
+where text_string is the input text the user wants to apply the word counting functionality on, in string format using ("").
