@@ -10,6 +10,8 @@ The application can also handle requests asynchronously, to work with a large nu
 FastAPI is a high-performance web framework for developing APIs with Python3, which is on level with NodeJS. The app runs on Uvicorn, which is an Asynchronous Server Gateway Interface (ASGI) server.
 
 ## Requirements
+This project uses Python3 and pip (Python package manager) to install packages and write all the code for the word counting application. Therefore, Python3 and pip is required in order to install, run and update the web-api.
+
 The requirements to run this application is specified in [requirements.txt](koduppg_CGI/requirements.txt).
 
 ## How to install requirements and build the app
