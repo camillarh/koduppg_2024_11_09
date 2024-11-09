@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "koduppg_CGI",
+    name = "koduppg",
     version = "1.0",
     author = "Camilla Rimér Högberg",
     description = "A web-app for counting word frequencies using FastAPI",
