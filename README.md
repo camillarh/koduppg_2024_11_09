@@ -10,7 +10,7 @@ The application can also handle requests asynchronously, to work with a large nu
 FastAPI is a high-performance web framework for developing APIs with Python3, which is on level with NodeJS. The app runs on Uvicorn, which is an Asynchronous Server Gateway Interface (ASGI) server.
 
 ## Requirements
-The requirements to run this application is specified in [requirements.txt](requirements.txt).
+The requirements to run this application is specified in [requirements.txt](koduppg_CGI/requirements.txt).
 
 ## How to install requirements and build the app
 To get started with the app, you need to install FastAPI and Uvicorn. This can be done using pip.
@@ -18,15 +18,16 @@ Simply open the terminal and write
 
 `$ pip install .`
 
-This will install all requirements to run the app, accoring to [setup.py](setup.py).
+This will install all requirements to run the app, accoring to [setup.py](koduppg_CGI/setup.py).
 
 ## How to run the app
-The script [](run_api.py) is the file than runs the FastAPI application using Uvicorn, and reloads the app when changes are made.
+The script [run_api.py](koduppg_CGI/run_api.py) is the file than runs the FastAPI application using Uvicorn, and reloads the app when changes are made.
 To run the app, simply write 
 
 `$ python run_api.py`
 
 in the terminal. This will start the Uvicorn server and run the FastAPI application on port 3000. The app is now set up for incoming HTTP requests on this port.
+The actual word count is performed in the script [word_counting_app.py](koduppg_CGI/word_counting_app.py)
 
 ## How to use the app
 To use the app, open a separate terminal and write 
