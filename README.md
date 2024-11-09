@@ -21,7 +21,7 @@ FastAPI is a high-performance web framework for developing APIs with Python3, wh
 > [!IMPORTANT]
 > This project uses Python3 and pip (Python package manager) to install packages and write all the code for the word-counting application. Therefore, Python3 and pip is required in order to install, run and update the web-API.
 
-Other requirements to run this application is specified in [requirements.txt](koduppg_CGI/requirements.txt).
+Other requirements to run this application is specified in [requirements.txt](requirements.txt).
 
 
 ## How to install requirements and build the application
@@ -30,14 +30,14 @@ Simply clone this repository, open a terminal and set your current location to t
 
 `$ pip install .`
 
-This will install all requirements to run the application, according to [setup.py](koduppg_CGI/setup.py).
+This will install all requirements to run the application, according to [setup.py](setup.py).
 
 ## How to run the application
-The script [run_api.py](koduppg_CGI/run_api.py) is the file than runs the FastAPI application using Uvicorn, and reloads the application when changes are made. To run the app, in the terminal simply write 
+The script [run_api.py](run_api.py) is the file than runs the FastAPI application using Uvicorn, and reloads the application when changes are made. To run the app, in the terminal simply write 
 
 `$ python run_api.py`
 
-This will start the Uvicorn server and run the FastAPI application on port 3000. The web-API is now set up for incoming HTTP requests on this port. The actual word count is performed in the script [word_counting_app.py](koduppg_CGI/word_counting_app.py)
+This will start the Uvicorn server and run the FastAPI application on port 3000. The web-API is now set up for incoming HTTP requests on this port. The actual word count is performed in the script [word_counting_app.py](word_counting_app.py)
 
 
 ## How to use the application
