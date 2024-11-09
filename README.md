@@ -23,11 +23,7 @@ Simply open the terminal and write
 This will install all requirements to run the app, accoring to [setup.py](koduppg_CGI/setup.py).
 
 ### Clone repository
-To access the code for the word counting app, clone the repository and set your current location to the directory where the code is located by writing 
-
-`$ cd koduppg_2024_11_09\koduppg_CGI`
-
-in the terminal. Now you are ready to run the application.
+To access the code for the word counting app, clone the repository and set your current location to the directory. You are now ready to run the application.
 
 ## How to run the app
 The script [run_api.py](koduppg_CGI/run_api.py) is the file than runs the FastAPI application using Uvicorn, and reloads the app when changes are made. To run the app, simply write 
