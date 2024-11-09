@@ -12,7 +12,7 @@ FastAPI is a high-performance web framework for developing APIs with Python3, wh
 ## Requirements
 This project uses Python3 and pip (Python package manager) to install packages and write all the code for the word counting application. Therefore, Python3 and pip is required in order to install, run and update the web-api.
 
-The requirements to run this application is specified in [requirements.txt](koduppg_CGI/requirements.txt).
+Other requirements to run this application is specified in [requirements.txt](koduppg_CGI/requirements.txt).
 
 ## How to install requirements and build the app
 To get started with the app, you need to install FastAPI and Uvicorn. This can be done using pip.
