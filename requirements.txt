@@ -1,2 +1,6 @@
+"""
+    This file specifies all requirements needed to run the word-counting app.
+"""
+
 fastapi==0.103.2
 uvicorn==0.22.0

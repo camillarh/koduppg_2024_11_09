@@ -1,3 +1,7 @@
+"""
+    This file can be used to install all requirements and packages needed to run the word-counting app.
+"""
+
 from setuptools import setup, find_packages
 
 setup(
