@@ -43,11 +43,11 @@ where _text_string_ is the text the user wants to apply the word counting functi
 
 ### A simple example
 > [!TIP]
-> A simple example of using the application is by writing the call
+> A simple example of using the application is by writing
 >
 >`$ curl -H "Content-type: text/plain" -X "POST" -d "Banan Äpple Katt Hund Banan Hund Katt Hund" http://localhost:3000/count`
 >
->which will count the occurence of each word and return the response
+> which will generate the web-API to count the occurence of each word in the string "_Banan Äpple Katt Hund Banan Hund Katt Hund_" and return the response
 >
 >`$ {"Hund":3,"Banan":2,"Katt":2,"Äpple":1}` 
 >
