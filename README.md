@@ -25,7 +25,7 @@ This will install all requirements to run the app, accoring to [setup.py](kodupp
 ### Clone repository
 To access the code for the word counting app, clone the repository and set your current location to the directory where the code is located by writing 
 
-`$ cd koduppg_2024_11_09/koduppg_CGI`
+`$ cd koduppg_2024_11_09\koduppg_CGI`
 
 in the terminal. Now you are ready to run the application.
 
