@@ -20,7 +20,7 @@ Simply open the terminal and write
 
 `$ pip install .`
 
-This will install all requirements to run the app, accoring to [setup.py](koduppg_CGI/setup.py).
+This will install all requirements to run the app, according to [setup.py](koduppg_CGI/setup.py).
 
 ### Clone repository
 To access the code for the word counting app, clone the repository and set your current location to the directory. You are now ready to run the application.
