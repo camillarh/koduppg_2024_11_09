@@ -1,5 +1,5 @@
 """ 
-    This script is a web-api that:
+    This script is a web-API that:
     - Accepts a plain text as a POST request using FastAPI.
     - Parses the text to split it into words by symbols, spaces and line breaks, excluding apostrophes and hypens.
     - Counts the frequency of occurrence for each unique word in the text.
